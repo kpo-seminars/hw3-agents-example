@@ -28,10 +28,9 @@ public class Main {
             // так шлем сообщения конкретному агенту
             selected.registerMessage(new RandomMessage(100, 1000));
 
-
-
-            Thread.sleep(100);
         }
+
+        Thread.sleep(15000);
 
         // Так можем завершить работу агентов
         Agent.stop(agent1);
